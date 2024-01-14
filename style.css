@@ -32,6 +32,10 @@
   width: 80px;
 }
 
+.titulo-pesquisa {
+  z-index: 9999;
+}
+
 .titulo-pesquisa h1{
   color: #12561A;
   text-align: center;
