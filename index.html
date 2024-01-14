@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Rick and Morty</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <div class="header-pai">
+            <div class="logo-site">
+              <img src="/imagens/rickAndMortyLogo.png" alt="Logo Rick and Morty">
+            </div>
+            <div class="titulo-pesquisa">
+              <h1>API de Rick and Morty</h1>
+              <div id="container-pesquisa" class="campo-pesquisa">
+                <input type="text" id="input-pesquisa" placeholder="Pesquise">
+                <button id="botao-pesquisa"><i class="fas fa-search search-icon"></i></button>
+              </div>
+            </div>
+          </div>
+    </header>
+    <main>
+        <div>
+            <ul class="main-pai" id="lista-personagens"></ul>
+        </div>
+        <div id="pagesInfo"></div>
+        <div class="imagem-main">
+            <img src="imagens/rickAndMortyImage.png" alt="Rick and morty image">
+        </div>
+    </main>
+    <footer>
+        <div class="footer-pai">
+            <div class="infos">
+                <p id="totalPersonagens"></p>
+                <p id="localizacoes"></p>
+                <p id="episodios"></p>
+            </div>
+            <div class="autor">
+                <p>
+                    Desenvolvido por <a href="https://www.linkedin.com/in/felipe-münchen-panzenhagen" target="_blank"> Felipe München Panzenhagen</a> em 2024.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="/js/api.js"></script>
+</body>
+</html>
