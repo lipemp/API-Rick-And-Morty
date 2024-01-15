@@ -1,1 +1,0 @@
-https://lipemp.github.io/API-Rick-And-Morty/
